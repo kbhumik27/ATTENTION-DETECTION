@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['High Attention', 'Low Attention']
+
+roboflow:
+  workspace: college-vlzv7
+  project: student-monitoring-system
+  version: 5
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/college-vlzv7/student-monitoring-system/dataset/5
